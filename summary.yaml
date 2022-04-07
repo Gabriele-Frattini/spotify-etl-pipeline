@@ -1,0 +1,15 @@
+file_type: sqlite
+dataset_name: tracks
+file_name: db.py
+table_name: tracks
+inbound_delimiter: rows
+outbound_delimiter: columns
+columns: 
+    - id (Primary Key)
+    - Artist Name
+    - Track Name
+    -cluster
+    -energy
+    -valence
+    -acousticness
+    -liveness
